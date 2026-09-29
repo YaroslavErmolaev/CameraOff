@@ -9,10 +9,7 @@ let project = Project(
             product: .app,
             bundleId: "com.yaroslavermolaev.CameraOff",
             deploymentTargets: .macOS("13.0"),
-            infoPlist: .extendingDefault(with: [
-                "CFBundleDisplayName": "CameraOff",
-                "LSUIElement": true,
-            ]),
+            infoPlist: .file(path: "CameraOff/Info.plist"),
             sources: ["CameraOff/Sources/**"],
             resources: [],
             dependencies: []

@@ -28,7 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		539A0CA655C1E44A24056293 /* CameraOff-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CameraOff-Info.plist"; sourceTree = "<group>"; };
+		04AE863CBCB34D77D8093071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5DDDBBF9000D0ECCEEC279BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E6B90072618FFAF90EDC2FC /* CameraProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraProfileController.swift; sourceTree = "<group>"; };
 		B6F739768272AD36D5746D20 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
@@ -48,22 +48,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3377296C85A6B4E823A8BC03 /* InfoPlists */ = {
-			isa = PBXGroup;
-			children = (
-				539A0CA655C1E44A24056293 /* CameraOff-Info.plist */,
-			);
-			path = InfoPlists;
-			sourceTree = "<group>";
-		};
-		43F516629FF46AB33E779AB9 /* Derived */ = {
-			isa = PBXGroup;
-			children = (
-				3377296C85A6B4E823A8BC03 /* InfoPlists */,
-			);
-			path = Derived;
-			sourceTree = "<group>";
-		};
 		50002BCC6EAC4FA95946F0FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				9A2CDE42C8E400FFAF510F14 /* Sources */,
+				04AE863CBCB34D77D8093071 /* Info.plist */,
 			);
 			path = CameraOff;
 			sourceTree = "<group>";
@@ -104,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				5FAF4F21C259DDD732DCD864 /* CameraOff */,
-				43F516629FF46AB33E779AB9 /* Derived */,
 			);
 			name = Project;
 			sourceTree = "<group>";
@@ -250,7 +234,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/CameraOff-Info.plist";
+				INFOPLIST_FILE = CameraOff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -325,7 +309,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/CameraOff-Info.plist";
+				INFOPLIST_FILE = CameraOff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
